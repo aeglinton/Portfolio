@@ -6,7 +6,11 @@
 #header {
 	width: 100%;
 	margin: 0 auto;
-	font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif
+	height: 25px;
+	line-height: 0px;
+	font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+	letter-spacing: 3px;
+	font-size: 20px;
 }
 ul {
 	list-style-type: none;

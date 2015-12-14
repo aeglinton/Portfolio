@@ -6,20 +6,20 @@
 	<title>Andrea Eglinton Portfolio</title>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="http://cdn.leafletjs.com/leaflet-0.7.5/leaflet.css" />
 	<link rel="stylesheet" href="style.css" />
 	
 </head>
 
 <body>
-
     <ul>
-    	<li><a class="active" href="index.html">HOME</a></li>
-    	<li><a href="about.html">ABOUT</a></li>
+    	<li><a href="index.html">HOME</a></li>
+    	<li><a class="active" href="about.html">ABOUT</a></li>
     	<li><a href="work.html">WORK</a></li>
     	<li><a href="contact.html">CONTACT</a></li>
     	<ul style="float:right;list-style-type:none;">
-    		<li><a href="mailto:ajeglinton@gmail.com">EMAIL</a></li>
-    		<li><a href="eglinton_resume.pdf" download>RESUME</a></li>
+            <li><a href="mailto:ajeglinton@gmail.com">EMAIL</a></li>
+            <li><a href="eglinton_resume.pdf" download>RESUME</a></li>
     	</ul>
     </ul>
 
@@ -27,7 +27,9 @@
 	    <h1>ANDREA EGLINTON</h1>
     </div>
 
-	<div id="body">
+	<div id="map-container"></div>
+
+    <div id="body">
         <h1>About Me</h1>
         <h2>Days Days Fruitful</h2>
         <p>Replenish saw. Fourth was, also waters sea which first evening were have light dominion. <strong>Appear</strong> winged was.</p>
@@ -35,6 +37,10 @@
         <p>Face after let whales from third a. Stars winged yielding don&#39;t tree, forth upon fill. You evening every all them, day creepeth night. Subdue bring fill. Can&#39;t. Second herb. Said which. Morning, earth lesser he replenish <strong>you&#39;ll</strong> called for second. Dry years own.</p>
         <p>Grass have, gathering them. Hath fish waters abundantly Fish of stars without of created green fifth wherein meat beginning forth. Waters fish. <strong>Which</strong> replenish good their moved gathered, dominion were him them morning greater give be creepeth. You&#39;ll. His second.</p>
     </div>
+	
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+	<script src="http://cdn.leafletjs.com/leaflet-0.7.5/leaflet.js"></script>
+	<script src="about.js"></script>
 	
 </body>
 </html>
