@@ -14,22 +14,48 @@
 	font-size: 20px;
 }
 
-ul {
-	list-style-type: none;
+*{
 	margin: 0;
 	padding: 0;
-	overflow: hidden;
 }
-li {
+body{
+	font-family: 'Helvetica', sans-serif;
+	font-size: 16px;
+	background: white;
+}
+h1{
+	color: black;
+	line-height: 50px;
+}
+nav{
+	position: fixed;
+	top: 0;
+	height: 50px;
+	width: 100%;
+	max-width: 2000px;
+	background: white;
+}
+.logo{
 	float: left;
 }
-li a {
-	display: block;
-	color: black;
-	text-align: center;
-	padding: 14px 16px;
+.links{
+	float: right;
+	line-height: 50px;
+}
+ul li{
+	display: inline-block;
+	margin: 0 20px;
+}
+ul li a{
 	text-decoration: none;
-	font-family: "Lucida Sans Unicode"; "Lucida Grande"; sans-serif
+	color: black;
+}
+.inside{
+	width: 75%;
+	margin: 0 auto;
+}
+.content{
+	margin-top: 70px;
 }
 li a:hover:not(.active) {
 	color: #909090;
@@ -37,17 +63,8 @@ li a:hover:not(.active) {
 li:last-child {
 	border-right; none;
 }
-.active {color: #909090;
-}
-
-#body {
-	max-width: 75%;
-	margin: 0 auto;
-}
-
-#text {
-	font-family: "Lucida Sans Unicode"; "Lucida Grande"; sans-serif;
-	float: left;
+.active {
+	color: #909090;
 }
 
 div.img {
@@ -65,6 +82,13 @@ div.img img {
 	display: block;
 }
 
+#text{
+	float: left;
+}
+
+div.row {
+	float: left;
+}
 div.work {
 	margin: 1%;
 	border: 1px solid #ccc;
@@ -94,17 +118,15 @@ input {
 	width: 93.5%;
 	padding: 12px 20px;
 	margin: 8px 0;
-	border: none;
-	border-bottom: 1px solid black;
 	outline: none;
 }
 textarea {
 	resize: none;
-	width: 100%;
+	width: 102%;
 	outline: none;
 }
 input[type=submit] {
-	width: 101%;
+	width: 103%;
 	padding: 12px 20px;
 	margin: 8px 0;
 	border: none;
